@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Xinwen1Activity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="10dp"
+
+                android:text="2019年的最后一场日环食天文大戏上演！"
+                android:textColor="#AC1515"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="2019-12-26 09:11 "
+                android:textColor="#ADA7A7"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="       26日的天宇将出现“天狗吃日”，即日食，这是今年最后一次日食。此次日食，虽然环食带不扫过厦门，但市民依然有机会大饱眼福，观看到日偏食。" />
+
+            <ImageView
+                android:id="@+id/tu1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/t2"
+
+                />
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="时间 日偏食在厦持续近三个小时"
+                android:textSize="15dp"
+                tools:layout_editor_absoluteX="143dp"
+                tools:layout_editor_absoluteY="364dp" />
+
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/t3" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:text="        陈栋华说，此次日食是一次日环食现象，而日偏食是日环食的一部分。10时29分50秒，环食带从中东地区开始，经印度南部、斯里兰卡，进入东南亚的印度尼西亚、新加坡、马来西亚等国，16时05分43秒，在西太平洋上结束，整个过程历时五个多小时。" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:text="       副馆长常泽楠表示，此次日食是一次日环食现象，而日偏食是日环食的一部分。10时29分50秒，环食带从中东地区开始，经印度南部、斯里兰卡，进入东南亚的印度尼西亚、新加坡、马来西亚等国，16时05分43秒，在西太平洋上结束，整个过程历时五个多小时。虽然中国不处于环食带区域，但全国范围仍能观赏到日偏食，本次日偏食在哈尔滨持续1小时20分钟左右，从13时20分开始至14时44分许。" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="       虽然中国不处于环食带区域，但全国范围仍能观赏到日偏食，越靠近环食带，看到的食分(月球遮挡太阳的面积)越大，厦门处于日环食带北侧，较国内北方城市更靠近环食带，看到的食分也较大。厦门发生日偏食，开始于12时33分11秒(初亏时刻)，食甚时刻是14时05分52秒，结束时间为15时26分31秒(复圆时刻)。" />
+
+
+            <EditText
+                android:id="@+id/et_pinhlun"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:background="@drawable/border_line_while"
+                android:gravity="left|top"
+                android:hint="请输入评论内容..."
+                android:paddingLeft="15dp"
+                android:paddingTop="12dp"
+                android:textColor="#808080"
+                android:textColorHint="#929292"
+                android:textSize="14sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_refresh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="25dp"
+                    android:text="刷新"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btn_fabu"
+                    android:layout_width="72dp"
+                    android:layout_height="32dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="14dp"
+                    android:background="#D8D8D8"
+                    android:text="发布"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <ListView
+                android:id="@+id/list_comment"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_below="@+id/tv_comment"
+                android:padding="8dp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

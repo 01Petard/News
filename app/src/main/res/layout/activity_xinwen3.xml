@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Xinwen3Activity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:textColor="#AC1515"
+                android:textSize="20dp"
+                android:text="5年以后，“房奴”和全款买房的人会有什么样的差别？" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="2019-12-26 12:04 "
+                android:textColor="#ADA7A7"
+                android:textSize="10dp"/>
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingRight="20dp"
+                android:text="        随着社会的发展，不管是城里人还是农村人都希望自己在城里有一套好房子，并且过上幸福的生活。这几年农村出来买房的人越来越多，房价也是一天比一天贵，现在很多小县城房价都涨到了4000～7000元/平米，那么买一套100平米的房子至少要五六十万，这还不包括装修在内。因此很多人基本上会选择以房贷的方式购买房产，那么当“房奴”和全款买房有什么差别？" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/t10" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingRight="20dp"
+                android:text="       全款买房的好处就是相比贷款买房来说，节省了很多的利息，而且不用每月愁着交房贷。但是这样的前提是得有全款买房的能力呀！因此很多人都会觉得还是全款买房子好，那么我就给大家简单算一下房贷和全款买房那个更划算。" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:paddingRight="20dp"
+                android:text="       以县城房价最低的4000元/平米来算，那么买个100平米的房子就得要40万，这还不包括装修，为了好计算，现在不把装修算进去。全款买房的话40万，加上各种购置税、一起41万左右可以拿下，然后就准备筹钱装修了，其他月供什么的跟自己无关。" />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/t11" />
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingRight="20dp"
+                android:text="        而房贷的话，按照商业贷款计算，并且按照2019年2月1日基准利率4.9%计算，利息。那么40万的房款，首付30%就是12万，贷款28万，贷款15年（180期），那么剩下总的还款额度为395939.49元，支付利息总额为115939.49元，月均还款2199.66元。也就是说40万的房子，你首付12万，那么你剩下的28万贷款15年的话，每个月要支付2200元左右，一直支付15年才结束。" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:text="其实这个是没有计算市场通货膨胀在里面的，大家都知道往后人们手里的钱会越“不值钱”，现在同样的100元人民币放到15年以后，估计就相当于现在的几十元了，因此全款买房和贷款买房对比的话。还得考虑通货膨胀速度是否过快才能得出结论。" />
+            <EditText
+                android:id="@+id/et_pinhlun"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:background="@drawable/border_line_while"
+                android:gravity="left|top"
+                android:hint="请输入评论内容..."
+                android:paddingLeft="15dp"
+                android:paddingTop="12dp"
+                android:textColor="#808080"
+                android:textColorHint="#929292"
+                android:textSize="14sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_refresh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="25dp"
+                    android:text="刷新"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btn_fabu"
+                    android:layout_width="72dp"
+                    android:layout_height="32dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="14dp"
+                    android:background="#D8D8D8"
+                    android:text="发布"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <ListView
+                android:id="@+id/list_comment"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_below="@+id/tv_comment"
+                android:padding="8dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

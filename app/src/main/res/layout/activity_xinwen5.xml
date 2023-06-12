@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Xinwen5Activity">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:text="孝感地震!!!"
+                android:textColor="#AC1515"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="2019-12-26 11:50"
+                android:textColor="#ADA7A7"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingRight="20dp"
+                android:text="        中国地震台网正式测定：12月26日18时36分在湖北孝感市应城市（北纬30.87度，东经113.40度）发生4.9级地震，震源深度10千米。武汉、荆州、潜江等地的小伙伴表示震感明显，你感觉到了吗？" />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:padding="10dp"
+                app:srcCompat="@drawable/t20" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingRight="20dp"
+                android:text="      据应城市应急管理局消息，截至21时，经初步核查，未发现人员伤亡；部分乡镇上报有房屋开裂等情况，已妥善转移安置。目前，当地医疗、消防、电力、通讯等单位分赴震源中心协助核灾及救援。并组织专班对水、电、路、气、学校、商场等重要基础设施和在建工地、危化企业，全面细致检查，及时排除隐患，防止次生灾害。经湖北省地震局专家紧急会商，应城再次发生5.0级以上地震可能性不大。" />
+
+            <VideoView
+                android:id="@+id/videoView"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+
+                android:paddingTop="20dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:text="开始" />
+
+                <Button
+                    android:id="@+id/btn_end"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:text="结束" />
+            </LinearLayout>
+            <EditText
+                android:id="@+id/et_pinhlun"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:background="@drawable/border_line_while"
+                android:gravity="left|top"
+                android:hint="请输入评论内容..."
+                android:paddingLeft="15dp"
+                android:paddingTop="12dp"
+                android:textColor="#808080"
+                android:textColorHint="#929292"
+                android:textSize="14sp" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_refresh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="25dp"
+                    android:text="刷新"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btn_fabu"
+                    android:layout_width="72dp"
+                    android:layout_height="32dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="14dp"
+                    android:background="#D8D8D8"
+                    android:text="发布"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <ListView
+                android:id="@+id/list_comment"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_below="@+id/tv_comment"
+                android:padding="8dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

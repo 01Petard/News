@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Xinwen4Activity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="这位78岁老人将成为地球首个数字人类，人类将在计算机上得到永生"
+                android:textColor="#AC1515"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="2019-12-26 20:14"
+                android:textColor="#ADA7A7"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingRight="20dp"
+                android:text="        人类对于永生的追求可以说从数千年起就已经开始，但是直到如今，人类的寿命还是无法突破150的限制，所以人类想出了各种各样的方式来延续自己的寿命，比如将自己冰冻，或者将自己改造成机器人。" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/t13" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingRight="20dp"
+                android:text="         除此之外，还有就是将自己打造成为“数字人类”，实现在云端永生。而最近，地球50亿年历史里首个“数字人类”也将诞生" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingRight="20dp"
+                android:text="        2018年的电影《头号玩家》，鬼才詹姆斯·哈利迪打造的虚拟游戏宇宙。人们只要戴上VR设备，就可以进入这个与现实形成强烈反差的虚拟世界，就算你在现实中是一个挣扎在社会边缘的失败者，在“绿洲”里也依然可以成为超级英雄，再遥远的梦想都变得触手可及。而詹姆斯·哈利迪虽然身患癌症，可是却在“绿洲”里就实现了永生。" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/t14" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingRight="20dp"
+                android:text="        这部电影可以说真实反映里21世纪人类社会的诉求，我们的科技正在以许多普通人所不熟知的惊人速度发展着，增强人，合成生物学，仿生假肢，人工智能……这些在十年前还只属于科幻领域的主题，如今已是实验室里非常热门的研究课题。科学家也想科学得力量打破自然的桎梏实现人类的永生，几十年来，硅谷的未来学家一直寻求将人类从物质生命周期中解放出来，他们把死亡视为另一个需要「改变生命」解决方案的转型问题，但是将死人复活或者让人真正意义上实现永生难度太大。" />
+
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/t15" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:text="        所以，这些科学家转换了想法，将人的“思维”进行数字化保存在互联网上，实现另一种意义上的永生我们称呼它们为“数字人类”，从狭义上指的是信息科学与生命科学融合的产物，是利用信息科学的方法对人体在不同水平的形态和功能进行虚拟仿真，其包括四个交叉重叠的发展阶段，即可视人类，物理人类，生理人类，智能人类。" />
+            <EditText
+                android:id="@+id/et_pinhlun"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:background="@drawable/border_line_while"
+                android:gravity="left|top"
+                android:hint="请输入评论内容..."
+                android:paddingLeft="15dp"
+                android:paddingTop="12dp"
+                android:textColor="#808080"
+                android:textColorHint="#929292"
+                android:textSize="14sp" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_refresh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="25dp"
+                    android:text="刷新"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btn_fabu"
+                    android:layout_width="72dp"
+                    android:layout_height="32dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="14dp"
+                    android:background="#D8D8D8"
+                    android:text="发布"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <ListView
+                android:id="@+id/list_comment"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_below="@+id/tv_comment"
+                android:padding="8dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

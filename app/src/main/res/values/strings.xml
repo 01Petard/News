@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">News</string>
+    <string name="action_settings">Settings</string>
+    <drawable name="color1">#fff</drawable>
+
+    <drawable name="color2">#D81B60</drawable>
+    <drawable name="android_btn">#fff</drawable>
+
+    <drawable name="android_btn_pressed">#fff</drawable>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <TextView
+        android:id="@+id/tv_refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="刷新"
+        android:textSize="24sp"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp" />
+    <TextView
+        android:id="@+id/tv_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回"
+        android:textSize="24sp"
+
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="330dp"
+        android:layout_marginLeft="330dp" />
+
+    <LinearLayout
+        android:id="@+id/ll_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_back"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        android:paddingLeft="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="写反馈:"
+            android:textSize="24sp"/>
+<!--        <EditText-->
+<!--            android:id="@+id/et_comment"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textSize="24sp"-->
+
+<!--            android:layout_marginStart="10dp"-->
+<!--            android:layout_marginEnd="10dp"/>-->
+
+        <EditText
+            android:id="@+id/et_comment"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:background="@drawable/border_line_while"
+            android:layout_margin="12dp"
+            android:hint="请输入反馈内容..."
+            android:textSize="14sp"
+            android:gravity="left|top"
+            android:paddingLeft="15dp"
+            android:paddingTop="12dp"
+            android:textColorHint="#929292"
+            android:textColor="#808080"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="72dp"
+                android:layout_height="32dp"
+                android:background="#D8D8D8"
+                android:layout_marginBottom="14dp"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:layout_marginTop="6dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="12dp"
+                android:text="发布"/>
+        </RelativeLayout>
+<!--        <Button-->
+<!--            android:id="@+id/btn_submit"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="提交反馈"-->
+<!--            android:textSize="20sp"-->
+<!--            android:background="@drawable/selector_loginactivity_button"-->
+<!--            android:layout_marginStart="20dp"/>-->
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_comment"
+        android:text="反馈内容:"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp" />
+    <ListView
+        android:id="@+id/list_comment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tv_comment"
+        android:padding="8dp"/>
+</RelativeLayout>

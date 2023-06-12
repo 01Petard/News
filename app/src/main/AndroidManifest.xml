@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wwwapplication">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/news"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Guangchang5Activity"></activity>
+        <activity android:name=".Guangchang4Activity" />
+        <activity android:name=".Guangchang3Activity" />
+        <activity android:name=".Guangchang2Activity" />
+        <activity android:name=".Guangchang1Activity" />
+        <activity android:name=".Xinwen7Activity" />
+        <activity android:name=".Xinwen6Activity" />
+        <activity android:name=".guangchangActivity" />
+        <activity android:name=".Xinwen5Activity" />
+        <activity android:name=".Xinwen4Activity" />
+        <activity android:name=".Xinwen3Activity" />
+        <activity android:name=".Xinwen2Activity" />
+        <activity android:name=".Xinwen1Activity" />
+        <activity android:name=".testActivity" />
+        <activity android:name=".ShouyeActivity">
+
+        </activity>
+        <activity android:name=".StartPageActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ReviewCommodityActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
